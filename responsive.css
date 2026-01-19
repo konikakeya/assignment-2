@@ -1,0 +1,30 @@
+@media screen and (max-width:576px){
+  /* nav  */
+   #heading {
+        padding: 16px 20px;
+        justify-content: space-between;
+        width: auto;
+    }
+    .heading-title {
+        font-size: 1.25rem;
+    }
+    .hidden-div {
+        display:block;
+    }
+    .navbar{
+        display: none;
+    }
+    #heading button img {
+        height: 24px;
+        width: 24px;
+      }
+
+    #heading button {
+        display: none;
+    }
+}
+
+/* banner  */
+
+
+
