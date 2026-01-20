@@ -1,4 +1,4 @@
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
   /* nav  */
    #heading {
         padding: 16px 20px;
@@ -22,9 +22,124 @@
     #heading button {
         display: none;
     }
-}
+
 
 /* banner  */
+ #banner {
+  margin: 0 auto;
+  padding: 20px;
+  background-size: cover;
+  padding-top: 60px;
+  gap: 20px;
+     
+ }
+ .banner-image {
+     margin-bottom: 0px;
+ }
+ .banner-image img{
+     max-width: 80px;
+     padding: 80px;
+     margin-top: 50px;
+ }
+ .badge {
+     margin-bottom: -130px;
+ }
+ .title {
+     font-size: 2.5rem;
+ }
+ /* About */
+ #about-section {
+     padding: 20px;
+ }
+ .about-container h1 {
+     font-size: 2rem;
+     margin-top: 20px;
+ }
+ .p-2{
+     margin-bottom: 20px;
+ }
+ .num-container {
+     grid-template-columns: repeat(2, 1fr);
+     margin-top: 20px;
+ }
 
+ /* choose  */
+
+ #choose{
+        padding: 20px;
+    }
+    #choose h1 {
+        font-size: 2rem;
+    }
+    .card-container {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        grid-template-areas:
+        "headphone"
+        "device"
+        "global"
+        "exclusive"
+        "resource";
+    }
+
+    /* ft  */
+    #featured {
+        padding: 20px;
+    }
+   .featured-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #featured h1 {
+        font-size: 2rem;
+    }
+
+
+    #host {
+        padding: 20px;
+    }
+    .host-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    .host-content{
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    /* .host-container img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    } */
+
+    /* footer  */
+
+
+     footer {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon{
+        width: 350px;
+
+        flex-wrap: wrap;
+
+        /* max-width: 350px; */
+
+        
+    }
+    .copyright {
+        margin-bottom: 20px;
+        margin-top: 40px;
+    }
+
+    
+}
 
 
